@@ -57,7 +57,6 @@ export default function Home() {
     <main className="flex-grow">
       <header className="text-center py-16 md:py-24 bg-card border-b">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <GraduationCap className="mx-auto h-16 w-16 text-primary" />
           <h1 className="font-headline text-4xl md:text-6xl font-bold tracking-tight mt-4">
             CBC Explorer
           </h1>
