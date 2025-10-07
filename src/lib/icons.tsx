@@ -16,6 +16,8 @@ import {
   Palette,
   MicVocal,
   Plus,
+  CookingPot,
+  Scale,
 } from 'lucide-react';
 import type React from 'react';
 
@@ -40,10 +42,20 @@ const iconMappings: { [key: string]: React.ElementType } = {
   Arts: Palette,
   Sports: Dumbbell,
   ICT: Computer,
+  'Home Science': CookingPot,
+  'Business': Scale,
+  'KPSEA': Landmark,
+  'Assessment': Landmark,
 };
 
 export const getSubjectIcon = (subjectName: string): React.ElementType => {
   const normalizedName = subjectName.toLowerCase();
+
+  // Exact matches first
+  if (iconMappings[subjectName]) {
+    return iconMappings[subjectName];
+  }
+
   for (const key in iconMappings) {
     if (normalizedName.includes(key.toLowerCase())) {
       return iconMappings[key];
