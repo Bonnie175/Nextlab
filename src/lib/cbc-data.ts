@@ -5,6 +5,7 @@ export type Subject = {
 
 export type Grade = {
   name: string;
+  summary: string;
   subjects: Subject[];
 };
 
@@ -23,6 +24,7 @@ export const cbcData: Level[] = [
     grades: [
       {
         name: 'Pre-Primary 1',
+        summary: 'In Pre-Primary 1, learners are introduced to foundational concepts through play. Activities focus on developing basic communication skills, recognizing numbers and shapes, and fostering creativity through art and music.',
         subjects: [
           {
             name: 'Language Activities',
@@ -44,6 +46,7 @@ export const cbcData: Level[] = [
       },
       {
         name: 'Grade 1',
+        summary: 'Grade 1 builds upon the pre-primary foundation by introducing more structured learning in core subjects. The curriculum focuses on developing early literacy and numeracy skills, as well as an awareness of the immediate environment.',
         subjects: [
           {
             name: 'English Language',
@@ -72,6 +75,7 @@ export const cbcData: Level[] = [
     grades: [
       {
         name: 'Grade 4',
+        summary: 'Grade 4 marks a transition to a broader curriculum, where learners explore more specialized subjects. The focus is on applying foundational skills to understand scientific concepts, social structures, and practical life skills like agriculture.',
         subjects: [
           {
             name: 'Science and Technology',
@@ -93,6 +97,7 @@ export const cbcData: Level[] = [
       },
       {
         name: 'Grade 7 (Junior School)',
+        summary: 'Junior School provides learners with a deeper dive into integrated sciences and pre-technical skills. This stage emphasizes critical thinking, problem-solving, and the development of essential life skills for personal and social growth.',
         subjects: [
           {
             name: 'Integrated Science',
@@ -121,6 +126,7 @@ export const cbcData: Level[] = [
     grades: [
       {
         name: 'Grade 10',
+        summary: 'In Senior School, learners choose specialized pathways that align with their career interests. The curriculum is designed to provide in-depth knowledge and skills in STEM, Arts, or Social Sciences, while ensuring all students develop core ICT and digital literacy competencies.',
         subjects: [
           {
             name: 'STEM Pathway',

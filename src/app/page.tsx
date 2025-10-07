@@ -8,7 +8,6 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
-import LearningOutcomes from '@/components/learning-outcomes';
 import { ArrowDown, GraduationCap } from 'lucide-react';
 
 export default function Home() {
@@ -141,9 +140,18 @@ export default function Home() {
             className="mt-16 pt-16 border-t animate-in fade-in duration-500"
           >
             <section id="subjects" className="text-center">
-              <h2 className="font-headline text-3xl font-bold tracking-tight">
-                3. Select a Subject
-              </h2>
+              <div className="max-w-3xl mx-auto mb-12">
+                  <h2 className="font-headline text-3xl font-bold tracking-tight">
+                    {selectedGrade.name} Overview
+                  </h2>
+                  <p className="mt-4 text-lg text-muted-foreground">
+                    {selectedGrade.summary}
+                  </p>
+              </div>
+
+              <h3 className="font-headline text-2xl font-bold tracking-tight">
+                3. Select a Subject to See Learning Outcomes
+              </h3>
               <p className="mt-2 text-muted-foreground">
                 Explore the subjects offered in {selectedGrade.name}.
               </p>
@@ -178,10 +186,22 @@ export default function Home() {
             ref={outcomesRef}
             className="mt-16 pt-16 border-t animate-in fade-in duration-500"
           >
-            <LearningOutcomes
-              subject={selectedSubject}
-              icon={getSubjectIcon(selectedSubject.name)}
-            />
+            <Card className="shadow-lg">
+                <CardHeader className="text-center">
+                    <div className="flex justify-center items-center mb-4">
+                        <div className="bg-primary/20 p-4 rounded-full">
+                            {React.createElement(getSubjectIcon(selectedSubject.name), { className: "h-10 w-10 text-primary-foreground" })}
+                        </div>
+                    </div>
+                    <CardTitle className="font-headline text-3xl">{selectedSubject.name}</CardTitle>
+                    <CardDescription>Learning Outcomes</CardDescription>
+                </CardHeader>
+                <CardContent className="text-base space-y-6">
+                    <p className="text-muted-foreground leading-relaxed whitespace-pre-line">
+                        {selectedSubject.learningOutcomes}
+                    </p>
+                </CardContent>
+            </Card>
           </div>
         )}
       </div>
