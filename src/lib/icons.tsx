@@ -18,6 +18,8 @@ import {
   Plus,
   CookingPot,
   Scale,
+  Stethoscope,
+  PenTool,
 } from 'lucide-react';
 import type React from 'react';
 
@@ -34,7 +36,8 @@ const iconMappings: { [key: string]: React.ElementType } = {
   Social: Landmark,
   Environmental: Globe,
   Agriculture: Sprout,
-  Health: Dumbbell,
+  Health: Stethoscope,
+  Hygiene: Stethoscope,
   'Pre-Technical': Hammer,
   Life: Smile,
   Religious: HeartHandshake,
@@ -44,8 +47,10 @@ const iconMappings: { [key: string]: React.ElementType } = {
   ICT: Computer,
   'Home Science': CookingPot,
   'Business': Scale,
-  'KPSEA': Landmark,
-  'Assessment': Landmark,
+  'KPSEA': PenTool,
+  'Assessment': PenTool,
+  'Performing Arts': Drama,
+  'Visual Arts': Palette,
 };
 
 export const getSubjectIcon = (subjectName: string): React.ElementType => {
