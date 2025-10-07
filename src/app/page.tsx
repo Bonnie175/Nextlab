@@ -1,14 +1,14 @@
 'use client';
 
-import { useState, useRef, useMemo, type FC } from 'react';
+import React, { useState, useRef, useMemo } from 'react';
 import Image from 'next/image';
 import { cbcData, type Level, type Grade, type Subject } from '@/lib/cbc-data';
 import { getSubjectIcon } from '@/lib/icons';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
-import { ArrowDown, GraduationCap } from 'lucide-react';
+import { GraduationCap } from 'lucide-react';
 
 export default function Home() {
   const [selectedLevelName, setSelectedLevelName] = useState<string | null>(null);
