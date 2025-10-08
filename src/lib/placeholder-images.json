@@ -2,26 +2,26 @@
   "placeholderImages": [
     {
       "id": "early_years",
-      "description": "Young African children in school uniforms writing at their desks.",
-      "imageUrl": "https://images.unsplash.com/photo-1617173945921-3e5bf7e3c74a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Young African children in a colorful classroom, smiling and engaged in a learning activity.",
+      "imageUrl": "https://images.unsplash.com/photo-1596443424953-633484206512?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imageHint": "children classroom"
     },
     {
       "id": "middle_school",
-      "description": "A smiling young African girl in a classroom holding up a book.",
-      "imageUrl": "https://images.unsplash.com/photo-1612984105255-a68f7d98c253?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "student learning"
+      "description": "A group of teenage African students collaborating over a laptop in a bright, modern library.",
+      "imageUrl": "https://images.unsplash.com/photo-1611095965942-8fc09139385a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "students learning"
     },
     {
       "id": "senior_school",
-      "description": "A group of older African students in a science lab, focused on an experiment.",
-      "imageUrl": "https://images.unsplash.com/photo-1629472109038-d74e06622129?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "students science"
+      "description": "An older African student in a science lab, looking intently at a test tube, with lab equipment in the background.",
+      "imageUrl": "https://images.unsplash.com/photo-1581093582453-9a69a45525b5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "student science"
     },
     {
       "id": "tertiary_education",
-      "description": "A group of diverse African university students in graduation gowns celebrating.",
-      "imageUrl": "https://images.unsplash.com/photo-1605391236110-3a4798700a94?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "A diverse group of African university students in graduation gowns, tossing their caps in the air in celebration.",
+      "imageUrl": "https://images.unsplash.com/photo-1627585293373-6df7976516d2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imageHint": "university graduation"
     }
   ]

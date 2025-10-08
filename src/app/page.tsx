@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { cbcData } from '@/lib/cbc-data';
 import { placeholderImages } from '@/lib/placeholder-images';
-import { Card, CardContent, CardHeader } from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { cn } from '@/lib/utils';
 import { PageHeader } from '@/components/page-header';
 
@@ -28,25 +28,20 @@ export default function Home() {
               const image = placeholderImages.find((img) => img.id === level.imageId);
               return (
                 <Link href={`/levels/${encodeURIComponent(level.name)}`} key={level.name} passHref>
-                  <Card
-                    className='cursor-pointer transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 h-full flex flex-col'
-                  >
-                    <CardHeader className="p-0">
-                      <div className="relative aspect-[4/3] w-full overflow-hidden rounded-t-lg">
-                        <Image
-                          src={image?.imageUrl || `https://picsum.photos/seed/${level.name}/800/600`}
-                          alt={level.description}
-                          width={800}
-                          height={600}
-                          className="object-cover w-full h-full"
-                          data-ai-hint={image?.imageHint}
-                        />
-                      </div>
-                    </CardHeader>
-                    <CardContent className="p-6 flex flex-col flex-grow">
+                  <Card className="group relative block w-full h-full cursor-pointer overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
+                    <Image
+                      src={image?.imageUrl || `https://picsum.photos/seed/${level.name}/800/600`}
+                      alt={level.description}
+                      width={800}
+                      height={600}
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      data-ai-hint={image?.imageHint}
+                    />
+                    <div className="absolute inset-0 bg-black/40 group-hover:bg-black/60 transition-colors duration-300" />
+                    <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                       <h3 className="font-headline text-xl font-bold">{level.name}</h3>
-                      <p className="mt-2 text-muted-foreground text-sm flex-grow">{level.description}</p>
-                    </CardContent>
+                      <p className="mt-2 text-sm opacity-90">{level.description}</p>
+                    </div>
                   </Card>
                 </Link>
               );

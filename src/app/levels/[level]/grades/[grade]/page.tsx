@@ -57,13 +57,13 @@ export default function GradePage() {
               return (
                 <Link href={subjectPath} key={subject.name}>
                   <Card
-                    className='cursor-pointer transition-all duration-300 hover:shadow-xl hover:border-primary h-full'
+                    className='group cursor-pointer transition-all duration-300 hover:shadow-xl hover:border-primary h-full bg-card hover:bg-accent/10'
                   >
                     <CardContent className="p-4 flex flex-col items-center justify-center text-center h-full">
-                      <div className="bg-accent/20 p-3 rounded-full">
-                        <Icon className="h-8 w-8 text-accent-foreground" />
+                      <div className="bg-accent/20 group-hover:bg-accent p-4 rounded-full transition-colors duration-300">
+                        <Icon className="h-8 w-8 text-accent-foreground transition-colors duration-300" />
                       </div>
-                      <h4 className="mt-3 font-semibold text-sm flex-grow flex items-center">{subject.name}</h4>
+                      <h4 className="mt-4 font-semibold text-sm flex-grow flex items-center">{subject.name}</h4>
                     </CardContent>
                   </Card>
                 </Link>
