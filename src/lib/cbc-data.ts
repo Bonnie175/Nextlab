@@ -1,3 +1,4 @@
+
 export type Subject = {
   name: string;
   curriculumDesign: string;
@@ -166,6 +167,26 @@ export const cbcData: Level[] = [
           { name: 'ICT and Digital Literacy', curriculumDesign: 'A core subject across all pathways, ensuring all learners are equipped with essential digital skills for the modern workplace and higher education.' },
         ],
       },
+      {
+        name: 'Grade 11',
+        summary: 'Grade 11 focuses on deepening specialization within the chosen pathway. Learners engage in advanced project work, internships, and community-based learning to apply their skills in real-world contexts.',
+        subjects: [
+          { name: 'Pathway Specialization', curriculumDesign: 'Learners continue with their chosen pathway (STEM, Arts, or Social Sciences), taking more advanced and specialized courses. The curriculum emphasizes research, critical analysis, and innovation.' },
+          { name: 'Community Service and Leadership', curriculumDesign: 'A mandatory component where learners plan and execute a community service project. It aims to develop leadership, collaboration, and a sense of social responsibility.' },
+          { name: 'Career Guidance and Mentorship', curriculumDesign: 'Provides structured guidance on university and college applications, career choices, and workplace readiness. Learners are paired with mentors from relevant industries.' },
+        ],
+      },
+      {
+        name: 'Grade 12',
+        summary: 'The final year of Senior School is dedicated to consolidating knowledge, completing major projects, and preparing for the Kenya Advanced Certificate of Education (KACE) examinations, which determine university entry.',
+        subjects: [
+          { name: 'Advanced Pathway Project', curriculumDesign: 'Learners undertake a major, year-long capstone project in their area of specialization. This project is a key component of their final assessment and showcases their accumulated skills and knowledge.' },
+          { name: 'KACE Preparation', curriculumDesign: 'Intensive preparation for the Kenya Advanced Certificate of Education (KACE) exams. The curriculum focuses on revision, examination techniques, and in-depth review of the syllabus for their specialized subjects.' },
+          { name: 'Tertiary Transition Skills', curriculumDesign: 'Equips learners with essential skills for success in university and beyond, including academic writing, critical thinking, financial planning for higher education, and personal well-being.' },
+        ],
+      },
     ],
   },
 ];
+
+    
