@@ -4,7 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { cbcData } from '@/lib/cbc-data';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { placeholderImages } from '@/lib/placeholder-images';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { cn } from '@/lib/utils';
 import { KenyanFlag, PageHeader } from '@/components/page-header';
@@ -27,7 +27,7 @@ export default function Home() {
           <p className="mt-2 text-muted-foreground">Start by choosing a level in the CBC journey.</p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8">
             {cbcData.map((level) => {
-              const image = PlaceHolderImages.find((img) => img.id === level.imageId);
+              const image = placeholderImages.find((img) => img.id === level.imageId);
               return (
                 <Link href={`/levels/${encodeURIComponent(level.name)}`} key={level.name} passHref>
                   <Card
