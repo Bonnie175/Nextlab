@@ -3,26 +3,26 @@
     {
       "id": "early_years",
       "description": "A diverse group of young children playing and learning with colorful wooden blocks on a classroom floor.",
-      "imageUrl": "https://images.unsplash.com/flagged/photo-1567116681178-c326fa4e2c8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjaGlsZHJlbiUyMHBsYXlpbmd8ZW58MHx8fHwxNzU5NzcwNTA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "children playing"
+      "imageUrl": "https://images.unsplash.com/photo-1517578498829-3b986b240222?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "children classroom"
     },
     {
       "id": "middle_school",
       "description": "A group of middle school students in a bright classroom, working together on a science experiment.",
-      "imageUrl": "https://picsum.photos/seed/102/800/600",
-      "imageHint": "students classroom"
+      "imageUrl": "https://images.unsplash.com/photo-1571260899304-425eee4c7efc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "students science"
     },
     {
       "id": "senior_school",
       "description": "Two teenage students collaborating on a project with a laptop in a modern school library.",
-      "imageUrl": "https://images.unsplash.com/photo-1733671805619-1a1563c006bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0ZWVuYWdlcnMlMjBzdHVkeWluZ3xlbnwwfHx8fDE3NTk3NzI3MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "teenagers studying"
+      "imageUrl": "https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "teenagers library"
     },
     {
       "id": "tertiary_education",
       "description": "A university graduate in a cap and gown holding a diploma, smiling at the camera.",
-      "imageUrl": "https://picsum.photos/seed/103/800/600",
-      "imageHint": "graduate graduation"
+      "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "university graduation"
     }
   ]
 }
