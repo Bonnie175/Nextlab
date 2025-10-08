@@ -17,6 +17,12 @@
       "description": "Two teenage students collaborating on a project with a laptop in a modern school library.",
       "imageUrl": "https://images.unsplash.com/photo-1733671805619-1a1563c006bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0ZWVuYWdlcnMlMjBzdHVkeWluZ3xlbnwwfHx8fDE3NTk3NzI3MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "teenagers studying"
+    },
+    {
+      "id": "tertiary_education",
+      "description": "A university graduate in a cap and gown holding a diploma, smiling at the camera.",
+      "imageUrl": "https://picsum.photos/seed/103/800/600",
+      "imageHint": "graduate graduation"
     }
   ]
 }

@@ -86,7 +86,7 @@ export default function Home() {
             1. Select an Education Level
           </h2>
           <p className="mt-2 text-muted-foreground">Start by choosing a level in the CBC journey.</p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8">
             {cbcData.map((level) => {
               const image = PlaceHolderImages.find((img) => img.id === level.imageId);
               return (
@@ -126,7 +126,7 @@ export default function Home() {
           >
             <section id="grades" className="text-center">
               <h2 className="font-headline text-3xl font-bold tracking-tight">
-                2. Select a Grade
+                2. Select a Grade / Level
               </h2>
               <p className="mt-2 text-muted-foreground">
                 Now, choose a grade within {selectedLevel.name}.
@@ -209,7 +209,7 @@ export default function Home() {
                 </div>
                 <CardTitle className="font-headline text-3xl">{selectedSubject.name}</CardTitle>
                 <CardDescription>
-                  Learning Outcomes for {selectedGrade?.name}
+                  Curriculum Design for {selectedGrade?.name}
                 </CardDescription>
               </CardHeader>
               <CardContent className="text-base space-y-6 px-6 pb-6">

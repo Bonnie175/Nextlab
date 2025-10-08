@@ -187,6 +187,31 @@ export const cbcData: Level[] = [
       },
     ],
   },
+  {
+    name: 'Tertiary Education',
+    description: 'Post-secondary education, including diploma, degree, and postgraduate programs at colleges and universities.',
+    imageId: 'tertiary_education',
+    grades: [
+      {
+        name: 'College (TVET)',
+        summary: 'Technical and Vocational Education and Training (TVET) institutions offer diploma and certificate courses focused on practical, hands-on skills for specific trades and professions. This pathway prepares learners for direct entry into the workforce.',
+        subjects: [
+          { name: 'Hospitality Management', curriculumDesign: 'Provides practical training in hotel operations, culinary arts, and customer service. Prepares students for careers in the tourism and hospitality industry.' },
+          { name: 'Information Communication Technology', curriculumDesign: 'Focuses on applied tech skills, including networking, software development, and cybersecurity. Equips learners with job-ready skills for the IT sector.' },
+          { name: 'Building and Construction', curriculumDesign: 'Covers practical skills in masonry, plumbing, and electrical installation. Prepares learners for careers in the construction industry.' },
+          { name: 'Fashion and Design', curriculumDesign: 'Develops technical skills in garment making, textile design, and fashion business. Fosters creativity and entrepreneurship in the fashion world.' },
+        ],
+      },
+      {
+        name: 'University',
+        summary: 'Universities offer undergraduate and postgraduate degree programs, focusing on theoretical knowledge, research, and professional development. This pathway is for learners seeking advanced academic qualifications and specialized professions.',
+        subjects: [
+          { name: 'Bachelor of Science in Computer Science', curriculumDesign: 'In-depth study of algorithms, data structures, software engineering, and artificial intelligence. Prepares students for careers in software development and research.' },
+          { name: 'Bachelor of Medicine and Surgery', curriculumDesign: 'A comprehensive program covering medical sciences, clinical skills, and patient care. Prepares graduates for a career as medical doctors.' },
+          { name: 'Bachelor of Laws (LLB)', curriculumDesign: 'Covers core legal principles, jurisprudence, and legal practice. Prepares students for admission to the bar and a career in law.' },
+          { name: 'Bachelor of Commerce (BCom)', curriculumDesign: 'Focuses on business disciplines such as accounting, finance, and marketing. Equips graduates with the skills for management and business leadership roles.' },
+        ],
+      },
+    ],
+  },
 ];
-
-    

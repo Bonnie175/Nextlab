@@ -24,6 +24,9 @@ import {
   Wrench,
   HeartPulse,
   Leaf,
+  GraduationCap,
+  Briefcase,
+  Building,
 } from 'lucide-react';
 import type React from 'react';
 
@@ -59,6 +62,11 @@ const iconMappings: { [key: string]: React.ElementType } = {
   'Engineering': Wrench,
   'Health Sciences': HeartPulse,
   'Agricultural': Leaf,
+  'University': GraduationCap,
+  'College': Briefcase,
+  'Hospitality': CookingPot,
+  'Building': Building,
+  'Fashion': Palette,
 };
 
 export const getSubjectIcon = (subjectName: string): React.ElementType => {
