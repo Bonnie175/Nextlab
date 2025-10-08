@@ -8,7 +8,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { getSubjectIcon } from '@/lib/icons';
 import { PageHeader } from '@/components/page-header';
 import { Breadcrumbs } from '@/components/breadcrumbs';
-import { cn } from '@/lib/utils';
+import { Button } from '@/components/ui/button';
 
 export default function GradePage() {
   const params = useParams();
@@ -23,7 +23,7 @@ export default function GradePage() {
       <div className="text-center py-16">
         <h1 className="text-2xl font-bold">Grade not found.</h1>
         <Link href="/">
-          <button>Go back to Home</button>
+          <Button variant="link">Go back to Home</Button>
         </Link>
       </div>
     );
@@ -45,7 +45,7 @@ export default function GradePage() {
 
         <section id="subjects" className="text-center mt-8">
            <h3 className="font-headline text-2xl font-bold tracking-tight">
-            Select a Subject to See Learning Outcomes
+            Select a Subject to Explore
           </h3>
           <p className="mt-2 text-muted-foreground">
             Explore the subjects offered in {grade.name}.
@@ -74,7 +74,7 @@ export default function GradePage() {
       </div>
        <footer className="bg-primary text-primary-foreground text-center py-6 mt-16">
         <p className="text-sm text-primary-foreground/80">
-          Built for educational purposes by Next Tech Lab. All data is representational.
+          Built for educational purposes. All data is representational.
         </p>
       </footer>
     </main>
