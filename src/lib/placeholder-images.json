@@ -2,14 +2,14 @@
   "placeholderImages": [
     {
       "id": "early_years",
-      "description": "Young African children in a colorful classroom, smiling and engaged in a learning activity.",
+      "description": "Young African children in a colorful classroom, smiling and engaged in a learning activity with their teacher.",
       "imageUrl": "https://images.unsplash.com/photo-1596443424953-633484206512?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imageHint": "children classroom"
     },
     {
       "id": "middle_school",
-      "description": "A group of teenage African students collaborating over a laptop in a bright, modern library.",
-      "imageUrl": "https://images.unsplash.com/photo-1611095965942-8fc09139385a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "A group of teenage African students collaborating over a laptop in a bright, modern library setting.",
+      "imageUrl": "https://images.unsplash.com/photo-1611095965942-8fc09139385a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%_3D%3D",
       "imageHint": "students learning"
     },
     {
@@ -20,7 +20,7 @@
     },
     {
       "id": "tertiary_education",
-      "description": "A diverse group of African university students in graduation gowns, tossing their caps in the air in celebration.",
+      "description": "A diverse group of African university students in graduation gowns, tossing their caps in the air in celebration on campus.",
       "imageUrl": "https://images.unsplash.com/photo-1627585293373-6df7976516d2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imageHint": "university graduation"
     }
