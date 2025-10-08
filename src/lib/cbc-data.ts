@@ -1,6 +1,7 @@
 export type Subject = {
   name: string;
   curriculumDesign: string;
+  pathways?: Subject[];
 };
 
 export type Grade = {
@@ -150,7 +151,16 @@ export const cbcData: Level[] = [
         name: 'Grade 10',
         summary: 'In Senior School, learners choose specialized pathways that align with their career interests. The curriculum is designed to provide in-depth knowledge and skills in STEM, Arts, or Social Sciences, while ensuring all students develop core ICT and digital literacy competencies.',
         subjects: [
-          { name: 'STEM Pathway', curriculumDesign: 'Focuses on pure sciences, advanced mathematics, and technology-oriented subjects like engineering principles and computer science for careers in science and tech.' },
+          {
+            name: 'STEM Pathway',
+            curriculumDesign: 'Focuses on pure sciences, advanced mathematics, and technology-oriented subjects for careers in science and tech. Learners select a specialization from the tracks below.',
+            pathways: [
+              { name: 'Pure Sciences', curriculumDesign: 'In-depth study of Physics, Chemistry, and Biology. Focuses on theoretical knowledge, advanced laboratory work, and scientific research methodologies to prepare for university-level science programs.' },
+              { name: 'Engineering & Technology', curriculumDesign: 'Covers principles of engineering, technical drawing, and workshop practices. Learners engage in design projects and problem-solving to build a foundation for technical careers and higher education in engineering.' },
+              { name: 'Health Sciences', curriculumDesign: 'Provides a focused curriculum on human anatomy, physiology, and public health. Prepares learners for careers in medicine, nursing, and other healthcare professions.' },
+              { name: 'Agricultural & Environmental Sciences', curriculumDesign: 'Combines principles of modern agriculture, conservation, and environmental management. Learners gain practical skills in sustainable farming and ecological preservation.' },
+            ],
+          },
           { name: 'Arts and Sports Science Pathway', curriculumDesign: 'Offers specialization in performing arts, visual arts, or sports science, preparing learners for careers in creative and athletic fields.' },
           { name: 'Social Sciences Pathway', curriculumDesign: 'Provides in-depth study of humanities, languages, and business-related subjects for careers in law, communication, and management.' },
           { name: 'ICT and Digital Literacy', curriculumDesign: 'A core subject across all pathways, ensuring all learners are equipped with essential digital skills for the modern workplace and higher education.' },

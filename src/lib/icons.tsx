@@ -20,6 +20,10 @@ import {
   Scale,
   Stethoscope,
   PenTool,
+  FlaskConical,
+  Wrench,
+  HeartPulse,
+  Leaf,
 } from 'lucide-react';
 import type React from 'react';
 
@@ -46,11 +50,15 @@ const iconMappings: { [key: string]: React.ElementType } = {
   Sports: Dumbbell,
   ICT: Computer,
   'Home Science': CookingPot,
-  'Business': Scale,
-  'KPSEA': PenTool,
-  'Assessment': PenTool,
+  Business: Scale,
+  KPSEA: PenTool,
+  Assessment: PenTool,
   'Performing Arts': Drama,
   'Visual Arts': Palette,
+  'Pure Sciences': FlaskConical,
+  'Engineering': Wrench,
+  'Health Sciences': HeartPulse,
+  'Agricultural': Leaf,
 };
 
 export const getSubjectIcon = (subjectName: string): React.ElementType => {
