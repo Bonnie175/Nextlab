@@ -188,7 +188,7 @@ export const cbcData: Level[] = [
   },
   {
     name: 'Senior School',
-    description: 'Ages 15-17. This level offers three specialized pathways—STEM, Arts & Sports Science, and Social Sciences—based on student aptitudes and career choices.',
+    description: 'Ages 15-17. This level offers three specialized pathways—STEM, Arts &amp; Sports Science, and Social Sciences—based on student aptitudes and career choices.',
     imageId: 'senior_school',
     grades: [
       {
@@ -197,34 +197,37 @@ export const cbcData: Level[] = [
         subjects: [
           {
             name: 'STEM Pathway',
-            curriculumDesign: 'For learners with a strong aptitude for science, technology, engineering, and mathematics. Learners select a combination of at least three subjects from the list below.',
+            curriculumDesign: 'This pathway is designed for learners with a strong aptitude for science, technology, engineering, and mathematics. It provides a rigorous foundation for university degrees in engineering, medicine, computer science, and pure sciences. Career opportunities include becoming an engineer, doctor, software developer, research scientist, or data analyst. Learners select a combination of at least three subjects from the list below.',
             pathways: [
-              { name: 'Mathematics', curriculumDesign: 'Compulsory for this pathway. Covers advanced topics in pure and applied mathematics.' },
-              { name: 'Physics', curriculumDesign: 'In-depth study of core physics principles, with a strong emphasis on experimental skills and application.' },
-              { name: 'Chemistry', curriculumDesign: 'Focuses on advanced chemistry, including organic chemistry, physical chemistry, and analytical techniques.' },
-              { name: 'Biology', curriculumDesign: 'Covers advanced biological concepts from molecular biology to ecosystem dynamics, preparing learners for life sciences.' },
-              { name: 'Agriculture', curriculumDesign: 'Focuses on the science and technology of agriculture, including biotechnology, soil science, and farm management.' },
-              { name: 'Computer Science', curriculumDesign: 'Introduces advanced programming, data structures, algorithms, and software development principles.' },
+              { name: 'Mathematics', curriculumDesign: 'Compulsory for this pathway. Covers advanced topics in pure mathematics (algebra, calculus) and applied mathematics (statistics, mechanics).' },
+              { name: 'Physics', curriculumDesign: 'In-depth study of core physics principles, including mechanics, thermodynamics, and electromagnetism, with a strong emphasis on experimental skills and application.' },
+              { name: 'Chemistry', curriculumDesign: 'Focuses on advanced chemistry, including organic chemistry, physical chemistry, and analytical techniques. Practical lab work is a central component.' },
+              { name: 'Biology', curriculumDesign: 'Covers advanced biological concepts from molecular biology and genetics to ecology and human physiology, preparing learners for careers in medicine and life sciences.' },
+              { name: 'Agriculture', curriculumDesign: 'Focuses on the science and technology of modern agriculture, including biotechnology, soil science, crop management, and agribusiness.' },
+              { name: 'Computer Science', curriculumDesign: 'Introduces advanced programming, data structures, algorithms, and software development principles, preparing students for careers in tech.' },
             ],
           },
           {
             name: 'Arts and Sports Science Pathway',
-            curriculumDesign: 'For learners with talents in creative and athletic fields. Learners choose at least three subjects from specializations in visual arts, performing arts, or sports science.',
+            curriculumDesign: 'This pathway is for learners with talents and interests in creative and athletic fields. It prepares them for careers in the arts, media, entertainment, and sports industries. Potential careers include artist, designer, musician, actor, journalist, or sports scientist. Learners choose at least three subjects from the specializations below.',
             pathways: [
-                { name: 'Visual Arts', curriculumDesign: 'Specialized study in areas like painting, sculpture, graphic design, or photography, focusing on portfolio development.' },
-                { name: 'Performing Arts', curriculumDesign: 'Advanced training in music, dance, or drama, with a focus on performance, composition, and theoretical understanding.' },
-                { name: 'Sports Science', curriculumDesign: 'Covers topics like anatomy, physiology, sports medicine, coaching, and sports management.' },
+                { name: 'Visual Arts', curriculumDesign: 'Specialized study in areas like painting, sculpture, graphic design, or photography. The curriculum is portfolio-driven, preparing students for art school and careers as creative professionals.' },
+                { name: 'Performing Arts', curriculumDesign: 'Advanced training in music, dance, or drama. This subject focuses on performance techniques, composition, choreography, and the theoretical understanding of the art form.' },
+                { name: 'Sports Science', curriculumDesign: 'Covers the scientific principles behind human performance, including anatomy, physiology, biomechanics, sports medicine, coaching, and sports management.' },
+                { name: 'Music', curriculumDesign: 'Focuses on performance, music theory, composition, and musicology. Students can specialize in an instrument or voice and prepare for careers as performers, composers, or music educators.' },
+                { name: 'Art and Design', curriculumDesign: 'A broad subject covering principles of design, art history, and practical skills in various media. It prepares students for careers in graphic design, fashion design, and industrial design.' },
             ],
           },
           {
             name: 'Social Sciences Pathway',
-            curriculumDesign: 'For learners interested in humanities and professions that involve human interaction and society. Learners choose at least three subjects from this pathway.',
+            curriculumDesign: 'This pathway is ideal for learners interested in humanities, business, and professions that involve high levels of human interaction and societal understanding. It prepares students for careers in law, business, journalism, public administration, and education. Learners choose at least three subjects from the list below.',
             pathways: [
-                { name: 'Languages & Literature', curriculumDesign: 'Advanced study of English, Kiswahili, or foreign languages (e.g., French, German, Mandarin), including literature analysis.' },
-                { name: 'History and Government', curriculumDesign: 'In-depth study of local and world history, political systems, and international relations.' },
-                { name: 'Geography', curriculumDesign: 'Focuses on advanced physical and human geography, environmental management, and geographical research methods.' },
-                { name: 'Religious Studies', curriculumDesign: 'Advanced comparative study of religions, philosophy, and ethics.' },
-                { name: 'Business Studies', curriculumDesign: 'Covers advanced topics in accounting, finance, marketing, and entrepreneurship.' },
+                { name: 'Languages &amp; Literature', curriculumDesign: 'Advanced study of English, Kiswahili, or foreign languages (e.g., French, German, Mandarin). The curriculum includes in-depth literature analysis, critical theory, and creative writing.' },
+                { name: 'History and Government', curriculumDesign: 'In-depth study of local and world history, political ideologies, constitutional law, and international relations. Prepares students for careers in law, public policy, and diplomacy.' },
+                { name: 'Geography', curriculumDesign: 'Focuses on advanced physical and human geography, environmental management, urban planning, and the use of geographical information systems (GIS) for data analysis.' },
+                { name: 'Religious Studies', curriculumDesign: 'Advanced comparative study of world religions, philosophy, ethics, and their impact on society. It fosters critical thinking and cross-cultural understanding.' },
+                { name: 'Business Studies', curriculumDesign: 'Covers advanced topics in accounting, finance, marketing, economics, and entrepreneurship. It prepares learners for university business programs and entrepreneurial ventures.' },
+                { name: 'Home Science', curriculumDesign: 'Provides an advanced, scientific approach to topics like food science and nutrition, textile technology, and family resource management, leading to careers in dietetics, hospitality, and social work.' },
             ],
           },
           { name: 'Community Service Learning', curriculumDesign: 'A mandatory core subject across all pathways. Learners engage in projects that address community needs, developing leadership, collaboration, and a sense of social responsibility.' },
