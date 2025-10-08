@@ -6,7 +6,7 @@ import { useParams } from 'next/navigation';
 import { cbcData, type Grade, type Level, type Subject } from '@/lib/cbc-data';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { getSubjectIcon } from '@/lib/icons';
-import { PageHeader, KenyanFlag } from '@/components/page-header';
+import { PageHeader } from '@/components/page-header';
 import { Breadcrumbs } from '@/components/breadcrumbs';
 import { cn } from '@/lib/utils';
 import { ChevronRight } from 'lucide-react';
@@ -104,7 +104,7 @@ export default function SubjectPage() {
       </div>
       <footer className="bg-card text-center py-6 mt-16 border-t">
         <p className="text-sm text-muted-foreground">
-          Built for educational purposes. All data is representational.
+          Built for educational purposes by Next Tech Lab. All data is representational.
         </p>
       </footer>
     </main>

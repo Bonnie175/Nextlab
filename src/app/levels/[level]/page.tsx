@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import { cbcData, type Level } from '@/lib/cbc-data';
 import { Button } from '@/components/ui/button';
-import { PageHeader, KenyanFlag } from '@/components/page-header';
+import { PageHeader } from '@/components/page-header';
 import { Breadcrumbs } from '@/components/breadcrumbs';
 
 export default function LevelPage() {
@@ -30,9 +30,7 @@ export default function LevelPage() {
       <PageHeader
         title={level.name}
         description={level.description}
-      >
-        <KenyanFlag />
-      </PageHeader>
+      />
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <Breadcrumbs segments={[{ name: 'Home', path: '/' }, { name: level.name }]} />
@@ -61,7 +59,7 @@ export default function LevelPage() {
       </div>
        <footer className="bg-card text-center py-6 mt-16 border-t">
         <p className="text-sm text-muted-foreground">
-          Built for educational purposes. All data is representational.
+          Built for educational purposes by Next Tech Lab. All data is representational.
         </p>
       </footer>
     </main>

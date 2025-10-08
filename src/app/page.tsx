@@ -7,7 +7,7 @@ import { cbcData } from '@/lib/cbc-data';
 import { placeholderImages } from '@/lib/placeholder-images';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { cn } from '@/lib/utils';
-import { KenyanFlag, PageHeader } from '@/components/page-header';
+import { PageHeader } from '@/components/page-header';
 
 export default function Home() {
   return (
@@ -15,9 +15,7 @@ export default function Home() {
       <PageHeader
         title="CBC Explorer"
         description="An interactive guide to Kenya's new Competency-Based Curriculum."
-      >
-        <KenyanFlag />
-      </PageHeader>
+      />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <section id="levels" className="text-center">
@@ -59,7 +57,7 @@ export default function Home() {
 
       <footer className="bg-card text-center py-6 mt-16 border-t">
         <p className="text-sm text-muted-foreground">
-          Built for educational purposes. All data is representational.
+          Built for educational purposes by Next Tech Lab. All data is representational.
         </p>
       </footer>
     </main>

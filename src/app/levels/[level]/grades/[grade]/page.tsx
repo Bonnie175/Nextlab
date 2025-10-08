@@ -6,7 +6,7 @@ import { useParams } from 'next/navigation';
 import { cbcData, type Grade, type Level } from '@/lib/cbc-data';
 import { Card, CardContent } from '@/components/ui/card';
 import { getSubjectIcon } from '@/lib/icons';
-import { PageHeader, KenyanFlag } from '@/components/page-header';
+import { PageHeader } from '@/components/page-header';
 import { Breadcrumbs } from '@/components/breadcrumbs';
 import { cn } from '@/lib/utils';
 
@@ -34,9 +34,7 @@ export default function GradePage() {
       <PageHeader
         title={grade.name}
         description={grade.summary}
-      >
-        <KenyanFlag />
-      </PageHeader>
+      />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <Breadcrumbs segments={[
@@ -76,7 +74,7 @@ export default function GradePage() {
       </div>
        <footer className="bg-card text-center py-6 mt-16 border-t">
         <p className="text-sm text-muted-foreground">
-          Built for educational purposes. All data is representational.
+          Built for educational purposes by Next Tech Lab. All data is representational.
         </p>
       </footer>
     </main>
