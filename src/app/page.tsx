@@ -34,12 +34,13 @@ export default function Home() {
                     className='cursor-pointer transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 h-full flex flex-col'
                   >
                     <CardHeader className="p-0">
-                      <div className="relative aspect-[4/3] w-full">
+                      <div className="relative aspect-[4/3] w-full overflow-hidden rounded-t-lg">
                         <Image
                           src={image?.imageUrl || `https://picsum.photos/seed/${level.name}/800/600`}
                           alt={level.description}
-                          fill
-                          className="object-cover rounded-t-lg"
+                          width={800}
+                          height={600}
+                          className="object-cover w-full h-full"
                           data-ai-hint={image?.imageHint}
                         />
                       </div>
