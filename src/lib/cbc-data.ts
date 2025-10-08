@@ -197,7 +197,7 @@ export const cbcData: Level[] = [
         subjects: [
           {
             name: 'STEM Pathway',
-            curriculumDesign: 'This pathway is designed for learners with a strong aptitude for science, technology, engineering, and mathematics. It provides a rigorous foundation for university degrees in engineering, medicine, computer science, and pure sciences. Career opportunities include becoming an engineer, doctor, software developer, research scientist, or data analyst. Learners select a combination of at least three subjects from the list below.',
+            curriculumDesign: 'This pathway is designed for learners with a strong aptitude for science, technology, engineering, and mathematics. It provides a rigorous foundation for university degrees in engineering, medicine, computer science, and pure sciences. Career opportunities include becoming an engineer, doctor, software developer, research scientist, or data analyst. Learners select a combination of subjects from the list below.',
             pathways: [
               { name: 'Mathematics', curriculumDesign: 'Compulsory for this pathway. Covers advanced topics in pure mathematics (algebra, calculus) and applied mathematics (statistics, mechanics).' },
               { name: 'Physics', curriculumDesign: 'In-depth study of core physics principles, including mechanics, thermodynamics, and electromagnetism, with a strong emphasis on experimental skills and application.' },
@@ -205,6 +205,12 @@ export const cbcData: Level[] = [
               { name: 'Biology', curriculumDesign: 'Covers advanced biological concepts from molecular biology and genetics to ecology and human physiology, preparing learners for careers in medicine and life sciences.' },
               { name: 'Agriculture', curriculumDesign: 'Focuses on the science and technology of modern agriculture, including biotechnology, soil science, crop management, and agribusiness.' },
               { name: 'Computer Science', curriculumDesign: 'Introduces advanced programming, data structures, algorithms, and software development principles, preparing students for careers in tech.' },
+              { name: 'Woodwork', curriculumDesign: 'Provides skills in designing and creating objects from wood, focusing on joinery, finishing, and the use of hand and power tools.' },
+              { name: 'Metalwork', curriculumDesign: 'Covers techniques for shaping and joining metal, including welding, casting, and machining. Prepares learners for careers in manufacturing and fabrication.' },
+              { name: 'Electricity', curriculumDesign: 'Focuses on electrical principles, circuit design, installation, and safety. It provides a foundation for careers as electricians or electrical technicians.' },
+              { name: 'Power Mechanics', curriculumDesign: 'Teaches the principles of internal combustion engines and vehicle systems, preparing students for careers in automotive technology and mechanics.' },
+              { name: 'Drawing & Design', curriculumDesign: 'Develops skills in technical drawing, computer-aided design (CAD), and graphical communication for engineering and architectural fields.' },
+              { name: 'Aviation Technology', curriculumDesign: 'An introductory course on the principles of flight, aircraft systems, and air navigation for students interested in careers in aviation.' },
             ],
           },
           {
@@ -222,7 +228,7 @@ export const cbcData: Level[] = [
             name: 'Social Sciences Pathway',
             curriculumDesign: 'This pathway is ideal for learners interested in humanities, business, and professions that involve high levels of human interaction and societal understanding. It prepares students for careers in law, business, journalism, public administration, and education. Learners choose at least three subjects from the list below.',
             pathways: [
-                { name: 'Languages &amp; Literature', curriculumDesign: 'Advanced study of English, Kiswahili, or foreign languages (e.g., French, German, Mandarin). The curriculum includes in-depth literature analysis, critical theory, and creative writing.' },
+                { name: 'Languages & Literature', curriculumDesign: 'Advanced study of English, Kiswahili, or foreign languages (e.g., French, German, Mandarin). The curriculum includes in-depth literature analysis, critical theory, and creative writing.' },
                 { name: 'History and Government', curriculumDesign: 'In-depth study of local and world history, political ideologies, constitutional law, and international relations. Prepares students for careers in law, public policy, and diplomacy.' },
                 { name: 'Geography', curriculumDesign: 'Focuses on advanced physical and human geography, environmental management, urban planning, and the use of geographical information systems (GIS) for data analysis.' },
                 { name: 'Religious Studies', curriculumDesign: 'Advanced comparative study of world religions, philosophy, ethics, and their impact on society. It fosters critical thinking and cross-cultural understanding.' },
