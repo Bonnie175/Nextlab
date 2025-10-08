@@ -10,7 +10,7 @@ interface PageHeaderProps {
 
 export function PageHeader({ title, description, children }: PageHeaderProps) {
     return (
-        <header className="text-center py-16 md:py-24 bg-card border-b">
+        <header className="text-center py-16 md:py-24 bg-primary text-primary-foreground">
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-center items-center">
                     {children}
@@ -18,7 +18,7 @@ export function PageHeader({ title, description, children }: PageHeaderProps) {
                         {title}
                     </h1>
                 </div>
-                <p className="mt-4 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
+                <p className="mt-4 text-lg md:text-xl text-primary-foreground/80 max-w-2xl mx-auto">
                     {description}
                 </p>
             </div>

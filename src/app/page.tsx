@@ -55,8 +55,8 @@ export default function Home() {
         </section>
       </div>
 
-      <footer className="bg-card text-center py-6 mt-16 border-t">
-        <p className="text-sm text-muted-foreground">
+      <footer className="bg-primary text-primary-foreground text-center py-6 mt-16">
+        <p className="text-sm text-primary-foreground/80">
           Built for educational purposes by Next Tech Lab. All data is representational.
         </p>
       </footer>
