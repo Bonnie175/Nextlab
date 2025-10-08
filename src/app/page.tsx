@@ -31,10 +31,10 @@ export default function Home() {
               return (
                 <Link href={`/levels/${encodeURIComponent(level.name)}`} key={level.name} passHref>
                   <Card
-                    className='cursor-pointer transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 h-full'
+                    className='cursor-pointer transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 h-full flex flex-col'
                   >
                     <CardHeader className="p-0">
-                      <div className="relative h-48 w-full">
+                      <div className="relative aspect-[4/3] w-full">
                         <Image
                           src={image?.imageUrl || `https://picsum.photos/seed/${level.name}/800/600`}
                           alt={level.description}
@@ -44,9 +44,9 @@ export default function Home() {
                         />
                       </div>
                     </CardHeader>
-                    <CardContent className="p-6">
+                    <CardContent className="p-6 flex flex-col flex-grow">
                       <h3 className="font-headline text-xl font-bold">{level.name}</h3>
-                      <p className="mt-2 text-muted-foreground text-sm">{level.description}</p>
+                      <p className="mt-2 text-muted-foreground text-sm flex-grow">{level.description}</p>
                     </CardContent>
                   </Card>
                 </Link>
